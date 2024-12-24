@@ -1,0 +1,83 @@
+site_name: Tuwaiq
+site_url: https://yourcompanydomain.com
+site_author: Your Company Name
+
+nav:
+  - Home: index.md
+  - Elementor Guide: elementor-guide.md
+  - About us: about us.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/yourcompany
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourcompany
+    - icon: fontawesome/brands/Facebook
+      link: https://www.youtube.com/@kite_sa
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@kite_sa
+  logo:
+    text: Tuwaiq
+    image: images/logo.png
+    alt: Tuwaiq Logo
+  footer:
+    custom_content: |
+      <div style="padding: 20px; text-align: center;">
+        <img src="images/logo.png" alt="KITE Logo" style="height: 70px; margin-bottom: 15px;">
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        <div style="margin-top: 10px;">
+          <a href="https://www.linkedin.com/in/yourcompany" target="_blank" style="margin-right: 10px;"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/yourcompany" target="_blank" style="margin-right: 10px;"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/@kite_sa" target="_blank" style="margin-right: 10px;"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.youtube.com/@kite_sa" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+ & 2024 Knowledge Patner Information Tecnology.
+  All rights reserve.
